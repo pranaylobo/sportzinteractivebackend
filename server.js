@@ -36,7 +36,7 @@ app.get('/', function (req, res) {
 
         for (var i = 0; i < obj["playerList"].length; i++)
         {
-            array.push({"image":"assets/"+obj["playerList"][i]["Id"]+".jpg","PFName":obj["playerList"][i]["PFName"],"Value":obj["playerList"][i]["Value"],"VsCCode":obj["playerList"][i]["UpComingMatchesList"][0]["VsCCode"],"CCode":obj["playerList"][0]["UpComingMatchesList"][0]["CCode"],"date":obj["playerList"][0]["UpComingMatchesList"][0]["MDate"],"skilldesc":obj["playerList"][i]["SkillDesc"]})
+            array.push({"image":"assets/"+obj["playerList"][i]["Id"]+".jpg","PFName":obj["playerList"][i]["PFName"],"Value":obj["playerList"][i]["Value"],"VsCCode":obj["playerList"][i]["UpComingMatchesList"][0]["VsCCode"],"CCode":obj["playerList"][0]["UpComingMatchesList"][0]["CCode"],"date":obj["playerList"][0]["UpComingMatchesList"][0]["MDate"],"skilldesc":obj["playerList"][i]["SkillDesc"],"TeamName":obj["playerList"][i]["TName"]})
     
         }
 
